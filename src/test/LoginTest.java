@@ -17,12 +17,9 @@ public class LoginTest {
 
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		System.setProperty("webdriver.gecko.driver", "geckodriver.exe");
-		
+
 		WebDriver driver = new ChromeDriver();
 //		WebDriver driver = new FirefoxDriver();
-
-		
-		
 
 		driver.get("https://www.simplilearn.com");
 
