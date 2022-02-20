@@ -29,6 +29,26 @@ public class FBLogin {
 		//*[text()='Create new account'] - find xpath using text function
 		//*[contains(text(),'Connect with friends')] - using partial text
 		//*[contains(@data-testid,'open')]  -  using attribute value
+		//*[starts-with(text(),'Terms')]  - xpath using start with 
+		//a[@class='logo']/img  - find xpath using child
+		//div[@class='col-centered content-wrapper']/div[1]/img - accessing child node and grand child node
+		//div[@class='col-centered content-wrapper']//img  - direct access to grand child
+		
+		//input[@name='user_login']/parent::div - xpath to get immediate parent 
+		//div[@class='col-centered content-wrapper']/following::div - xpath using following
+		//div[@class='logo-image']/following-sibling::div - xpath using following
+		//div[@class='content-heading ']/preceding::div - xpath using preceding
+		//div[@class='content-heading ']/ancestor::div  -xpath to find all ancestor
+		
+		//css selector - comparatively faster
+		
+		//  input#email   -- this is used only when id value is known
+		//  input.email  --this is used only when class value is known
+		//  a[data-testid='open-registration-form-button']  - using tag name and its attribute value
+		//  a[data-testid*='open-registrati']  - using tag name with * like contains providing part of text
+		//  a[data-testid^='open-registrati']  - ^ to start-with
+		//  a[data-testid$='-button']  - use $ for end with
+		//  select#month>option    - > to get child tag
 
 		UserName.sendKeys("xyz@abc.com");
 		Password.sendKeys("Abcd@123");
