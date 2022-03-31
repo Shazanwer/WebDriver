@@ -14,5 +14,6 @@
 	<classpathentry kind="lib" path="C:/SELENIUM/Installer/selenium-java-3.141.59/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="C:/SELENIUM/Installer/selenium-java-3.141.59/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="C:/SELENIUM/Installer/commons-io-2.11.0.jar"/>
+	<classpathentry kind="lib" path="C:/SELENIUM/Installer/sikulixapi-2.0.5.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
